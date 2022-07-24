@@ -9,7 +9,9 @@
                 throw new ArgumentNullException(nameof(args));
             }
 
-            Console.WriteLine(SumIntDigits.Solution(59));
+            //Console.WriteLine(SumIntDigits.Solution(59));
+            //Console.WriteLine(Palindrome.Solution("abacaba"));
+            Console.WriteLine(ShapeArea.Solution(5));
         }
     }
 }
