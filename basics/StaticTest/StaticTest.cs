@@ -1,43 +1,49 @@
 ﻿namespace code_challenges
 {
-    internal class StaticTest
+    internal class StaticPerson
     {
         public static int StaticAge = 0;
         public string Name = "";
-        public static readonly int StaticReadOnlyBalance = 1;
 
-        static StaticTest()
+        //Changed from only within instance constructor
+        public readonly double ReadOnlyAccountBalance = 0;
+
+        //Changed from only within static constructor
+        public static readonly decimal StaticReadOnlyLoanAmount = 0;
+
+        static StaticPerson()
         {
-            StaticReadOnlyBalance = 1111;
+            Console.WriteLine($"Calling static constructor.");
+
+            Console.WriteLine($"Increasing {nameof(StaticAge)} in the static constructor.");
+            //Age will be increased for every new objects of this class
+            StaticAge += 1;
+
+            Console.WriteLine($"Increasing {nameof(StaticReadOnlyLoanAmount)} in the static constructor.");
+            StaticReadOnlyLoanAmount += 1;
+
+            Console.WriteLine($"Age: {StaticAge}, Loan amount: {StaticReadOnlyLoanAmount}");
+
+            Console.WriteLine();
         }
 
-        public StaticTest()
+        public StaticPerson()
         {
-            StaticAge = 1000;
-        }
-        internal string GetData()
-        {
-            StaticAge = 10;
-            Name = "New Name";
-            Console.WriteLine(Name + StaticAge);
-            return Name + StaticAge;
+            Console.WriteLine($"Calling instance constructor, creating new object ...");
+
+            Console.WriteLine($"Reducing {nameof(StaticAge)} in the instance constructor.");
+            StaticAge += 1;
+
+            ReadOnlyAccountBalance += 1;
         }
 
-        internal string ChangeData()
+        internal void ChangeData(string name, int age)
         {
-            StaticAge = 100;
-            Name = "New Name_100";
-            Console.WriteLine(Name + StaticAge);
-            return Name + StaticAge;
+            Console.WriteLine($"{name} is changing the state of {nameof(StaticPerson)}.");
+            Name = name;
+            StaticAge += age;
         }
 
-        public override string ToString() => Name + StaticAge;
-    }
-
-    public static class StaticClass
-    {
-        private static int Age = 0;
-        public static string Name = "";
-        public static readonly int Balance = 1;
+        public override string ToString() => $"Name: {Name}, Age: {StaticAge}, Account balance: {ReadOnlyAccountBalance}, Loan amount: {StaticReadOnlyLoanAmount}";
     }
 }
