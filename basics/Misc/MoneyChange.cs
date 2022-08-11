@@ -2,6 +2,9 @@
 
 namespace ca_basics
 {
+    /// <summary>
+    /// WIP - to be completed.
+    /// </summary>
     internal class MoneyChange
     {
         /// <summary>
