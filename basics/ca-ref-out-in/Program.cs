@@ -3,7 +3,6 @@
     static void Main(string[] args)
     {
        RefReferenceTypeExample obj = new RefReferenceTypeExample();
-        obj.Equals
     }
 }
 
