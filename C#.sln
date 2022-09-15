@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ca-dealing-with-static", "basics\ca-dealing-with-static\ca-dealing-with-static.csproj", "{EDB6D861-597A-42B7-8BE2-73538EB9A5C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ca-extention-methods", "basics\ca-extention-methods\ca-extention-methods.csproj", "{632F733F-19DB-490E-8BFC-C9B7F03FD5E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ca-pass-by-value-reference", "basics\ca-pass-by-value-reference\ca-pass-by-value-reference.csproj", "{E789C452-FB0F-49FF-83EC-B0A6F1169CD2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ca-ref-out-in", "basics\ca-ref-out-in\ca-ref-out-in.csproj", "{454F45C2-7BAF-438B-804B-728365299ED8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ca-yield-return", "basics\ca-yield-return\ca-yield-return.csproj", "{5B8F2630-B6C9-4AB1-9063-F60D0486E9AD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ca-delegate", "basics\cs-delegate\ca-delegate.csproj", "{68D22755-C363-4540-AA54-D2675027E2DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDB6D861-597A-42B7-8BE2-73538EB9A5C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDB6D861-597A-42B7-8BE2-73538EB9A5C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDB6D861-597A-42B7-8BE2-73538EB9A5C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDB6D861-597A-42B7-8BE2-73538EB9A5C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{632F733F-19DB-490E-8BFC-C9B7F03FD5E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{632F733F-19DB-490E-8BFC-C9B7F03FD5E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{632F733F-19DB-490E-8BFC-C9B7F03FD5E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{632F733F-19DB-490E-8BFC-C9B7F03FD5E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E789C452-FB0F-49FF-83EC-B0A6F1169CD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E789C452-FB0F-49FF-83EC-B0A6F1169CD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E789C452-FB0F-49FF-83EC-B0A6F1169CD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E789C452-FB0F-49FF-83EC-B0A6F1169CD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{454F45C2-7BAF-438B-804B-728365299ED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{454F45C2-7BAF-438B-804B-728365299ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{454F45C2-7BAF-438B-804B-728365299ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{454F45C2-7BAF-438B-804B-728365299ED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B8F2630-B6C9-4AB1-9063-F60D0486E9AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B8F2630-B6C9-4AB1-9063-F60D0486E9AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B8F2630-B6C9-4AB1-9063-F60D0486E9AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B8F2630-B6C9-4AB1-9063-F60D0486E9AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68D22755-C363-4540-AA54-D2675027E2DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68D22755-C363-4540-AA54-D2675027E2DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68D22755-C363-4540-AA54-D2675027E2DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68D22755-C363-4540-AA54-D2675027E2DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {181FBF42-0ED2-4C0B-BBEE-10425BDA0A74}
+	EndGlobalSection
+EndGlobal
